@@ -6,6 +6,14 @@ notas.forEach(cadaNota => {
     somaDasNotas += cadaNota;  //percorre cada elemento dento de notas (cadaNota)
 });
 
+
+
+function multiplicaPorDois(e){
+    return e * 10
+}
+const result = notas.map(multiplicaPorDois);
 const media = somaDasNotas / notas.length;
 
+console.log(result)
 console.log(media)
+ console.log (media)

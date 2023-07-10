@@ -12,7 +12,6 @@ const numeros = [10,9,13,4,5,6]
         }else{
             return 1 + numero
         }
-
     })
 
     console.log(novaAtualizacaoDeNumeros)
